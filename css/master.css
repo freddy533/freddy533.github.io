@@ -1,0 +1,145 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-size: 1rem;
+}
+
+
+
+
+
+/* Typography */
+
+h1, h2, h3, p {
+		margin: 0;
+}
+
+.header h1{
+  	font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+	  letter-spacing: 1rem;
+	  text-decoration: underline;
+	  text-decoration-style:double;
+	  text-transform: uppercase;
+
+}
+
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+/* Header */
+
+header{
+    background-image: url("../img/HeaderImage.jpg");
+    background-size:auto;
+    height: 20em;
+    width: 100%;
+    color: #ffffff;
+    opacity: .8;
+    text-align: center;
+
+  }
+
+
+
+
+/* nav */
+/*https://www.w3schools.com/css/css_navbar.asp*/
+/* used the examples shown here to make a simple nav */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a {
+    display:block;
+    color: #ffffff;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+
+}
+nav a:hover{
+	 cursor: pointer;
+	  text-decoration: underline;
+}
+
+/* section */
+
+.Introduction{
+    height: 500px;
+    display: inline-block;
+    padding: 20px;
+}
+.intro{
+    padding-top: 120px;
+}
+.introleft{
+    float: left;
+    text-align: center;
+    min-width: 50%;
+    margin-top: 80px;
+}
+.introright{
+    float: right;
+    text-align: center;
+    max-width: 40%;
+    margin: 0;
+    padding-right:100px;
+
+}
+
+
+
+.contact{
+    height: 550px;
+    color: #ffffff;
+    background-color: #383b3f;
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.contact >h2{
+    margin: 0px;
+}
+.contactinfo > h3{
+    margin: 10px;
+
+}
+
+em{
+    text-decoration: underline;
+    font-size:30px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.contact > .right{
+    padding-right:200px;
+}
