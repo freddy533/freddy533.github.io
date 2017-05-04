@@ -1,0 +1,112 @@
+body{
+    background-color: #CFCFCF;
+
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+nav ul li{
+float: left;
+}
+ nav ul li a {
+    display:block;
+    color: #ffffff;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+
+}
+nav a:hover{
+	  cursor: pointer;
+	  text-decoration: underline;
+}
+header{
+
+    background-image: url("../img/HeaderImage2.jpg");
+    background-size:contain;
+    height: 50rem;
+    width: 100%;
+    color: #ffffff;
+    display: inline-block;
+    opacity: .8;
+}
+
+
+.title{
+    height: 500px;
+    text-align: center;
+}
+
+h1{
+  	font-family: 'Roboto', sans-serif;
+	  font-size: 4rem;
+	  letter-spacing: 10px;
+	  text-decoration: underline;
+	  text-decoration-style:double;
+	  text-transform: uppercase;
+	  padding-top: 50px;
+}
+.validatorimg{
+    border:4px solid red;
+    height: 300px;
+    width: 600px;
+}
+
+.validated{
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 50px;
+    padding-bottom: 50px;
+}
+
+.validcss{
+  float: left;
+}
+
+.validhtml{
+  float: right;
+}
+
+.featurescss{
+    display: inline-block;
+    margin:50px;
+    background-color: #108CC0;
+    color: #ffffff;
+    line-height: 40px;
+
+}
+.featureshtml{
+    display: inline-block;
+    margin:50px;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+.featuredescription{
+    float: left;
+    padding: 100px;
+}
+
+.featureimg{
+    float: right;
+    padding: 100px;
+}
+
+
+.featurepicture{
+    width: 500px;
+    height: 250px;
+}
+
+.validated, .featureshtml, .featurescss{
+    margin: 0;
+    width: 100%;
+}
